@@ -11,8 +11,8 @@ def home():
 def predict():
     if request.method=="POST":
         data=request.json
-        print(type(data))
-        return jsonify(data)
+        #print(type(data))
+        return jsonify({"ASHWIN":"KAURAV"})
     else:
         return "HEMLO"
 if __name__=='__main__':
