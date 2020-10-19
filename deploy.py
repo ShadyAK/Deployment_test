@@ -6,7 +6,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return "WELCOME"
+    return "Hello Soumybeeeeerrrrrrrrrr"
 @app.route('/predict',methods=['POST','GET'])
 def predict():
     if request.method=="POST":
